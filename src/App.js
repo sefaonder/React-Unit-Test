@@ -1,5 +1,11 @@
+import SampleComponent from "./components/sample/SampleComponent";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <SampleComponent />
+    </div>
+  );
 }
 
 export default App;
